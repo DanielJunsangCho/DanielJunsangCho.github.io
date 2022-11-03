@@ -1,0 +1,157 @@
+@media (min-width: 10px) {
+   body {
+      background-color: PowderBlue;
+   }
+}
+
+#introduction {
+   text-align: center;
+   padding: 30px;
+   font-family: Verdana, sans-serif;
+   font-size: 25px;
+   font-style: oblique;
+   font-weight: bold;
+   background: linear-gradient(to right, red 0%, blue 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.intro_list {
+   background: #cce5ff;
+   width: 40%;
+   color: darkblue;
+   margin-left: 370px;
+   padding: 5px;
+   font-family: Verdana, sans-serif;
+   font-size: 15px;
+   font-style: oblique;
+   text-align: center;
+   display: flex
+}
+
+#image_and_education {
+   display: flex;
+}
+
+img {
+   border-radius: 50%;
+   height: 350px;
+
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(100, 100, 100, 0.5);
+}
+
+.education_list {
+   list-style-position: inside;
+   list-style-type: circle;
+   padding-top: 10px;
+   padding-left: 250px;
+}
+
+#education_header {
+   text-align: center;
+   padding-top: 30px;
+   font-family: Verdana, sans-serif;
+   font-size: 25px;
+   font-style: oblique;
+   font-weight: bold;
+}
+
+#education_header2 {
+   text-align: center;
+   font-family: Verdana, sans-serif;
+   font-size: 17px;
+}
+
+.education_list2 {
+   list-style-position: inside;
+   list-style-type: circle;
+   padding-top: 10px;
+   padding-left: 210px;
+}
+
+.education_list2:hover {
+   color: hotpink;
+}
+
+.course_links:visited {
+   color: blue;
+}
+
+.course_links:hover {
+   color: hotpink;
+}
+
+#education_header3 {
+   text-align: center;
+   font-family: Verdana, sans-serif;
+   font-size: 17px;
+   padding-top: 10px;
+   padding-left: 100px;
+}
+
+.extrac_and_projects {
+   display: inline-block;
+   vertical-align: top;
+}
+
+#projects_header {
+   text-align: right;
+   font-family: Verdana, sans-serif;
+   font-size: 25px;
+   font-style: oblique;
+   font-weight: bold;
+}
+
+#no_projects {
+   padding-left: 500px;
+}
+
+#extrac_header {
+   font-family: Verdana, sans-serif;
+   font-size: 25px;
+   font-style: oblique;
+   font-weight: bold;
+   padding-left: 100px;
+}
+
+#extrac_header2 {
+   text-align: center;
+   padding-left: 100px;
+   font-family: Verdana, sans-serif;
+   font-size: 15px;
+}
+
+.extrac_list {
+   list-style-position: inside;
+   list-style-type: circle;
+   padding-top: 10px;
+   padding-left: 100px;
+}
+
+.wrap_up {
+   display: inline-block;
+   vertical-align: top;
+}
+
+#lang_skills {
+   padding-top: 50px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+}
+
+#contact_info {
+   float: right;
+   padding-right: 50px;
+   padding-top: 50px;
+}
+
+#linkedin_link:visited {
+   color: blue;
+}
+
+#linkedin_link:hover {
+   color: hotpink;
+}
